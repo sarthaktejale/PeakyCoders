@@ -345,6 +345,42 @@ body {
   height: 100vh;
 }
 
+.container{
+  color: #162938;
+  position: center;
+  align-items: center;
+  background-color: #e6e8ed;
+  opacity: 70%;
+  margin: 20;
+  padding: 30;
+  display:inline-block;
+  
+  border-radius: 25px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, .5);
+}
+
+.container-para{
+  color: #162938;
+  position: center;
+  align-items: center;
+  background-color: #e6e8ed;
+  opacity: 70%;
+  margin: 20;
+  padding: 30;
+  display: flex;
+  
+  border-radius: 25px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, .5);
+
+}
+
+.images{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  align-content: baseline;
+}
 
 /* ---------- HEADER ---------- */
 
