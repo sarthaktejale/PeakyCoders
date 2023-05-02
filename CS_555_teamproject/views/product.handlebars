@@ -1,0 +1,13 @@
+<h1>{{productName}}</h1>
+<h2></h2>
+<div>
+    <p> here comes description of the class</p>
+    <p> price : {{price}}</p>
+    <img alt="solarpanel" src="{{link}}">
+    {{#each reviews}}
+        <p>{{userName}}</p>
+        <p>{{postDate}}</p>
+        <p>{{rating}}</p>
+        <p>{{review}}</p>
+    {{/each}}
+</div>

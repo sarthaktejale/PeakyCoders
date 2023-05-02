@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+<body id = "field">
+    <header class="main-header">
+        {{!-- <h3>SOLAR PANEL</h3>
+<nav class="main-header__nav">
+    <ul class="main-header__item-list">
+        <li class="main-header__item"><a href="/home">HOME</a></li>
+        <li class="main-header__item"><a href="/products">PRODUCTS</a></li>
+        <li class="main-header__item" id="dropdown"><a class="active" href="/customerLogin">SIGN IN</a></li>
+    </ul> --}}
+    {{#if (eq lay1 "head1")}}
+        {{> header1}}
+    {{/if}}
+    
+</nav>
+
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+    
+</body>
+</html>
